@@ -427,10 +427,10 @@ void displayResults(Results iResults, Results bResults, Results sResults, Result
 
 	cout << setw(10) << left << "Sorts:" << setw(15) << "Ordered List" << setw(15)
 		<< "UnOrdered List" << setw(15) << "Reversed List" << setw(15) << "Average" << endl << endl;
-
+	
 	cout << setw(10) << "Insertion" << iResults.ordCompares << "/" << iResults.ordCopies << setw(7)
-		<< " " << iResults.unOrdCompares << "/" << iResults.unOrdCopies << setw(2) << " " <<
-		iResults.revOrdCompares << "/" << iResults.revOrdCopies << setw(2) << " "
+		<< " " <<	iResults.unOrdCompares << "/" << iResults.unOrdCopies << setw(2) << " " <<
+		iResults.revOrdCompares << "/" << iResults.revOrdCopies << setw(2) << " " 
 		<< iResults.avgCompares << "/" << iResults.avgCopies << endl << endl;
 
 	cout << setw(10) << "Selection" << sResults.ordCompares << "/" << sResults.ordCopies << setw(4)
